@@ -1,4 +1,5 @@
 # Introduction to HTTP
+
 HTTP- Hyper Text Transfer Protocol is the application level protocol to communicate between web servers and web browsers. It provides the means for web browser to request content from a web server using the GET method, and sending content to a web server using POST method. Other methods such as OPTIONS, PUT and DELETE are also specified in the HTTP protocol.
  
 
@@ -23,7 +24,7 @@ The GET method's requested resource can be subjected to parameters.
 
 Example: You can request google.com/search resource for the search query 'Sri Lanka' and language preferrence of Sinhala as follows:
 
-https://www.google.com/search?q=Sri+Lanka&hl=SI
+* https://www.google.com/search?q=Sri+Lanka&hl=SI
 
 Here the GET request will look something like this.
 ```python
@@ -41,8 +42,8 @@ Full resource query is /search?q=Sri+Lanka&hl=SI
 Exercise 1
 Now, check the search results of the following two links in the web browser, and identify the differences.
 
-https://www.google.com/search?q=Python&hl=SI
-https://www.google.com/search?q=Python&hl=EN
+* https://www.google.com/search?q=Python&hl=SI
+* https://www.google.com/search?q=Python&hl=EN
 
 Once you are at the web page, Press Ctrl+Shift+I in the browser, Select Network Tab to open the Network Monitoring Tool. You can reload the page by pressing enter after placing the cursor at the address bar. When the page is re-loading you can observer the Network Moitoring Tool listing the HTTP transactions one by one.
 Scroll all the up in the in the network moitoring tool, and select the first GET request. Then, locate the request headers (and enable raw format) to study the full request.
@@ -56,14 +57,15 @@ Various Response Status Codes could appear in the HTTP responses.
 
 You will frequently come across some of the following as well
 
-301 Moved Permanently
-302 Found/Moved Temporarily
-403 Forbidden
-404 Not Found
-451 Unavailable
+* 301 Moved Permanently
+* 302 Found/Moved Temporarily
+* 403 Forbidden
+* 404 Not Found
+* 451 Unavailable
+
 If you find some unfamiliar status code, you can find the details about all types of status codes in a google search, or in Wikipedia.
 
-https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+* https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 ---
 Exercise 2
 One way to test the HTTP protocol better is to do it on top of a normal TCP socket. Let us try to connect to the web server example.com and retrieve a web page using the HTTP protocol
