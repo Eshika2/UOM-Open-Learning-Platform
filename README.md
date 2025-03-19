@@ -1,4 +1,5 @@
 # UOM-Open-Learning-Platform
 
 ## Python for Beginners
-<a href="https://open.uom.lk/lms/mod/customcert/view.php?id=675&downloadown=1" target="_blank">E-Certificate</a>
+mnjVIHCw18
+<a href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php" target="_blank">E-Certificate</a>
